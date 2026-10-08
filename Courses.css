@@ -1,0 +1,164 @@
+/* =========================
+   Courses Page
+========================= */
+
+.courses-page {
+  background: #f8f9fc;
+  color: #1d1d1f;
+}
+
+/* Hero */
+
+.courses-hero {
+  padding: 90px 0;
+  background: linear-gradient(135deg, #f8f7ff, #ffffff);
+}
+
+.courses-hero span {
+  color: #6841d9;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.courses-hero h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 750;
+  margin: 15px 0 20px;
+}
+
+.courses-hero p {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Course Card */
+
+.course-card {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 15px;
+  padding: 28px;
+
+  height: 100%;
+
+  transition: 0.25s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Course Header */
+
+.course-header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.course-icon {
+  min-width: 52px;
+  height: 52px;
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #eee8ff;
+  color: #6841d9;
+
+  font-size: 23px;
+}
+
+.course-header span {
+  color: #6841d9;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.course-header h3 {
+  font-size: 19px;
+  margin: 3px 0 0;
+}
+
+/* Description */
+
+.course-card > p {
+  color: #777;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* Course Info */
+
+.course-info {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.course-info span {
+  color: #666;
+  font-size: 12px;
+}
+
+.course-info i {
+  color: #6841d9;
+  margin-right: 6px;
+}
+
+/* Topics */
+
+.course-card h6 {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.topic-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topic-list span {
+  background: #f7f5ff;
+  color: #555;
+
+  border: 1px solid #ebe6ff;
+  border-radius: 20px;
+
+  padding: 6px 10px;
+
+  font-size: 11px;
+}
+
+.topic-list i {
+  color: #6841d9;
+  margin-right: 4px;
+}
+
+/* Mobile */
+
+@media (max-width: 576px) {
+  .courses-hero {
+    padding: 60px 15px;
+  }
+
+  .courses-hero h1 {
+    font-size: 34px;
+  }
+
+  .course-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

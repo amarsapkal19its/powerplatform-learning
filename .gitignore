@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.parcel-cache/
+
+# # Ignore node modules at root
+# node_modules/
+
+# # Ignore dist inside First_Pg
+# First_Pg/dist/
